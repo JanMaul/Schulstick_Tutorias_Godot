@@ -1,11 +1,11 @@
 [gd_scene load_steps=27 format=3 uid="uid://c220m84nv5umk"]
 
 [ext_resource type="PackedScene" uid="uid://c35eg6vecdxky" path="res://Scene 2/Enemy.tscn" id="1_g6vkw"]
-[ext_resource type="Script" path="res://Szene 3/Spieler3.gd" id="2_vdwqx"]
-[ext_resource type="Texture2D" uid="uid://bmpjbhu4xxs5n" path="res://Sprites/adventurer-Sheet.png" id="3_ehcp0"]
+[ext_resource type="Script" path="res://Scene 3/Spieler3.gd" id="2_vdwqx"]
+[ext_resource type="Texture2D" uid="uid://bqfxj6kijv55q" path="res://Scene 1/Sprites/Adventurer Spritesheet by rvros.png" id="3_ehcp0"]
 [ext_resource type="Script" path="res://Scene 1/Animations.gd" id="4_s44ad"]
-[ext_resource type="Texture2D" uid="uid://1a26cnqcy83u" path="res://Sprites/icon.svg" id="5_4ij2p"]
-[ext_resource type="Script" path="res://Szene 3/Lifebar.gd" id="7_frjg4"]
+[ext_resource type="Texture2D" uid="uid://1a26cnqcy83u" path="res://Scene 1/Sprites/icon.svg" id="5_4ij2p"]
+[ext_resource type="Script" path="res://Scene 3/Lifebar.gd" id="7_frjg4"]
 [ext_resource type="TileSet" uid="uid://cwey53qodsmk4" path="res://Scene 1/Tile.tres" id="8_06oxh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7xh7j"]

@@ -1,12 +1,12 @@
 [gd_resource type="TileSet" load_steps=6 format=3 uid="uid://cwey53qodsmk4"]
 
-[ext_resource type="Texture2D" uid="uid://1a26cnqcy83u" path="res://Sprites/icon.svg" id="1_rfltn"]
-[ext_resource type="Texture2D" uid="uid://g8migkxp7lk6" path="res://Sprites/oak_woods_tileset.png" id="2_oxlkm"]
+[ext_resource type="Texture2D" uid="uid://1a26cnqcy83u" path="res://Scene 1/Sprites/icon.svg" id="1_31oj1"]
+[ext_resource type="Texture2D" uid="uid://yq1bqva57625" path="res://Scene 1/Sprites/Oak Woods Spritesheet by brullov.png" id="2_c6gik"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_qmgh6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mtwnf"]
-texture = ExtResource("1_rfltn")
+texture = ExtResource("1_31oj1")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -203,7 +203,7 @@ texture_region_size = Vector2i(128, 128)
 7:7/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_58k4x"]
-texture = ExtResource("2_oxlkm")
+texture = ExtResource("2_c6gik")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0

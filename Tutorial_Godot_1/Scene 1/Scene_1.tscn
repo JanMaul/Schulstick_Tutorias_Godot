@@ -1,15 +1,15 @@
 [gd_scene load_steps=28 format=3 uid="uid://do5f6cw76sodb"]
 
-[ext_resource type="Script" path="res://Szene 1/Player_1.gd" id="1_ewf0n"]
-[ext_resource type="Texture2D" uid="uid://bmpjbhu4xxs5n" path="res://Sprites/adventurer-Sheet.png" id="2_te186"]
+[ext_resource type="Script" path="res://Scene 1/Player_1.gd" id="1_ewf0n"]
+[ext_resource type="Texture2D" uid="uid://bqfxj6kijv55q" path="res://Scene 1/Sprites/Adventurer Spritesheet by rvros.png" id="2_te186"]
 [ext_resource type="Script" path="res://Scene 1/Animations.gd" id="3_8jk0c"]
-[ext_resource type="Texture2D" uid="uid://cssgxqoscb7c" path="res://Sprites/Oak Woods Backround by brullov/background_layer_1.png" id="5_5whtv"]
-[ext_resource type="Texture2D" uid="uid://yrk1tt3obu70" path="res://Sprites/Oak Woods Backround by brullov/background_layer_2.png" id="6_l4qux"]
-[ext_resource type="Texture2D" uid="uid://bb4fcfoo7i3ux" path="res://Sprites/Oak Woods Backround by brullov/background_layer_3.png" id="7_0drc5"]
+[ext_resource type="Texture2D" uid="uid://cssgxqoscb7c" path="res://Scene 1/Sprites/Oak Woods Backround by brullov/background_layer_1.png" id="5_5whtv"]
+[ext_resource type="Texture2D" uid="uid://yrk1tt3obu70" path="res://Scene 1/Sprites/Oak Woods Backround by brullov/background_layer_2.png" id="6_l4qux"]
+[ext_resource type="Texture2D" uid="uid://bb4fcfoo7i3ux" path="res://Scene 1/Sprites/Oak Woods Backround by brullov/background_layer_3.png" id="7_0drc5"]
 [ext_resource type="TileSet" uid="uid://cwey53qodsmk4" path="res://Scene 1/Tile.tres" id="8_egdpq"]
-[ext_resource type="Texture2D" uid="uid://b8lh4wllrw1k7" path="res://Sprites/Oak Woods Decorations by brullov/rock_3.png" id="8_qyo8s"]
-[ext_resource type="Texture2D" uid="uid://c25vx02d3yw0k" path="res://Sprites/Oak Woods Decorations by brullov/sign.png" id="9_h4kef"]
-[ext_resource type="Texture2D" uid="uid://0rjnapnuid2v" path="res://Sprites/Oak Woods Decorations by brullov/fence_1.png" id="10_awxmx"]
+[ext_resource type="Texture2D" uid="uid://b8lh4wllrw1k7" path="res://Scene 1/Sprites/Oak Woods Decorations by brullov/rock_3.png" id="8_qyo8s"]
+[ext_resource type="Texture2D" uid="uid://c25vx02d3yw0k" path="res://Scene 1/Sprites/Oak Woods Decorations by brullov/sign.png" id="9_h4kef"]
+[ext_resource type="Texture2D" uid="uid://0rjnapnuid2v" path="res://Scene 1/Sprites/Oak Woods Decorations by brullov/fence_1.png" id="10_awxmx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7xh7j"]
 atlas = ExtResource("2_te186")
@@ -146,7 +146,7 @@ size = Vector2(188, 256)
 position = Vector2(9, 113)
 
 [node name="Player" type="CharacterBody2D" parent="."]
-position = Vector2(-76, 66)
+position = Vector2(-207, 55)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_ewf0n")
 
